@@ -19,6 +19,4 @@ async def on_ready():
 async def on_message(message):
     if(message.author == client.user):
         return
-    #try:
-    await messages.message(message)    # Message !!! mhmm mhmm!!!
-    #except: pass
+    await messages.message(message)
